@@ -12,7 +12,10 @@ Vote.init(
     },
     user_id: {
       type: DataTypes.INTEGER,
+<<<<<<< HEAD
       allowNull: false,
+=======
+>>>>>>> develop
       references: {
         model: 'user',
         key: 'id'
@@ -20,7 +23,10 @@ Vote.init(
     },
     post_id: {
       type: DataTypes.INTEGER,
+<<<<<<< HEAD
       allowNull: false,
+=======
+>>>>>>> develop
       references: {
         model: 'post',
         key: 'id'
